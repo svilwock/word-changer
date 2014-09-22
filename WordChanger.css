@@ -1,0 +1,92 @@
+html {
+	height: 100px;
+}
+
+body {
+	background-color: gray;
+	margin: 0px;
+}
+
+.currWord {
+	display: inline;
+}
+
+.diff {
+	background-color: yellow !important;
+}
+
+.letters, .prevLetters {
+	float:left;
+	border: 7px solid black;
+	border-radius: 5px;
+	width: 86px;
+	height: 86px;
+	font-size: 36pt;
+	line-height: 88px;
+	background-color: cyan;
+	margin: 5px;
+	font-family: helvetica;
+}
+
+#invalid {
+	font-size: 20pt;
+	font-family: garamond;
+	color: red;
+}
+
+#main, .letters, .prevLetters {
+	text-align: center;
+}
+
+#path {
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+#path p {
+	margin-top: 0px;
+}
+
+#possibilities {
+	display: none;
+}
+
+#prevWord, #currWord {
+	height: 100px;
+}
+
+#score {
+	color: gold;
+}
+
+#score, #sidebar p {
+	font-size: 32pt;
+	display: inline;
+}
+
+#sidebar {
+	float: right;
+	width: 30%;
+	height: 100vh;
+	border-left: dashed black 5px;
+	padding-left: 30px;
+}
+
+
+#start, #end {
+	color: green;
+	font-weight: normal;
+}
+
+#end {
+	color: orange;
+}
+
+#words, #main {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#words {
+	display: table;
+}

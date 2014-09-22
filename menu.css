@@ -1,0 +1,35 @@
+body {
+	font-family: helvetica;
+	background-color: gray;
+	text-align: center;
+}
+
+h1 {
+	color: navy;
+}
+
+#options {
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	padding: 20px;
+	width: 50%;
+	font-size: 16pt;
+}
+
+#sidebar {
+	float: right;
+	width: 30%;
+	height: 100vh;
+	border-left: dashed black 5px;
+	padding-left: 30px;
+	font-size: 24pt;
+}
+
+#sidebar span {
+	color: purple;
+}
+
+span {
+	font-weight: bold;
+}
