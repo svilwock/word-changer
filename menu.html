@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word Changer</title>
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link href="wkey.jpg" type="image/gif" rel="shortcut icon">
+</head>
+
+<body>
+	<div id="options">
+		<!-- Description -->
+		<h1>Word Changer</h1>
+		<p>
+			Get from the <em>"Start From"</em> word to the <em>"Get To"</em> word by entering
+			words that differ from the current word by one letter. Each entry must be a valid
+			word. Entries cannot be repeated.
+		</p>
+		<form action="WordChanger.php" method="GET">
+			<div>
+				<span>Length:</span>
+				<br />
+				<select name="length">
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+				</select>
+			</div>
+
+			<span>Difficulty:</span>
+			<div><label><input type="radio" name="difficulty" value="easy">Easy</label></div>
+			<div><label><input type="radio" name="difficulty" value="medium">Medium</label></div>
+			<div><label><input type="radio" name="difficulty" value="hard">Hard</label></div>
+
+			<div><input type="submit" value="Let's Go"></div>
+		</form>
+	</div>
+
+<!-- Eventually make sidebar common php. -->
+
+	<!-- High Score feature not yet available -->
+	<div id="sidebar">
+		<p>High Score: <span>0</span></p>
+	</div>
+
+</body>
+</html>
